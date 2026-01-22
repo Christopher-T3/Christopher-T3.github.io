@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     color:black ;
 
-    background-image: url("IMG_5883.jpg");
+    background-image: url(../images/bg_historique.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
