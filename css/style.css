@@ -8,19 +8,29 @@
 body{
     display: block;
     margin: 0px 10px;
-    background-image:url(../images/bg-dark.jpg);
+    background: linear-gradient(135deg, #061a3a, #0a2a5f, #0e3a80);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
-.glass {
-    margin: auto;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 16px;
-    background-color: rgba(255, 255 , 255 , 0.2);
+/**
+.glass index.html
+.glass-box historique.html
+.glass-card jason
+.glass-card bayon.html
+.glass-form inscription.html
+*/
+.glass-card {
+    background: rgba(255, 255, 255, 0.15); 
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter : blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);         
+   max-width: 900px;
+    margin: auto;
+    padding:20px;
 }
 * {
     color: white;
@@ -30,4 +40,15 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.hero {
+  padding: 100px 20px;
+}
+.glass-footer {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.glass-card:hover {
+  transform: translateY(-6px);
 }

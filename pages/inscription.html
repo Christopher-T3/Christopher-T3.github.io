@@ -6,11 +6,11 @@
 
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="../css/inscription.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header class="container my-4">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm  navbar-dark">
             <a href="#" class="navbar-brand">
                 <img src="../images/logo.png" alt="" class="d-inline-block" width="30px" height="30px">
                     ISP-GOMBE
@@ -30,9 +30,9 @@
                         <a href="#" class="nav-link">Contacts</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" id = "faculty" role="button" data-bs-toggle="dropdown" aria-haspopup="true">Faculté</a>
-                            <div class="dropdown-menu" aria-labelledby="faculty">
-                                <a href="./faculte_lettres_et_sciences_humaines.html" class="dropdown-item active">Lettres et sciences humaines</a>
+                        <a href="#" class="nav-link dropdown-toggle" id = "faculty" role="button" data-bs-toggle="dropdown" aria-haspopup="true">Faculté</a>
+                            <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end glass-card" aria-labelledby="faculty">
+                                <a href="./faculte_lettres_et_sciences_humaines.html" class="dropdown-item">Lettres et sciences humaines</a>
                                 <a href="#" class="dropdown-item">Sciences exactes</a>
                                 <a href="#" class="dropdown-item">Informatique et gestion des entreprises</a>
                                 <a href="./faculte_technique_daccueil.html" class="dropdown-item">Acceuil et tourisme</a>
@@ -46,7 +46,7 @@
         </nav>
     </header>
 <section class="form-section d-flex align-items-center justify-content-center">
-  <div class="glass-form p-5">
+  <div class="glass-card p-5">
     <h2 class="text-center mb-4">Formulaire d'inscription</h2>
     <form action="">
       <div class="mb-3">
@@ -71,7 +71,7 @@
 
       <div class="mb-3">
         <label for="faculte" class="form-label">Faculté</label>
-        <input type="text" class="form-control" id="faculte" value="Lettres et Sciences Humaines" readonly>
+        <input type="text" class="form-control" id="faculte" placeholder="Entrez le nom de la faculté voulue">
       </div>
 
       <div class="mb-3">
@@ -105,6 +105,6 @@
   </div>
 </section>
 
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
