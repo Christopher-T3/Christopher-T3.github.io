@@ -52,3 +52,22 @@ body{
 .glass-card:hover {
   transform: translateY(-6px);
 }
+       
+.glace{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin:3%;
+}
+    
+ .marq{
+  display: inline;
+  transform: translateX(-50px);
+  transition: all 1.5s ease;
+ }
+.marq:hover{
+  opacity: 1;
+  transform: rotateX(0);
+  }
